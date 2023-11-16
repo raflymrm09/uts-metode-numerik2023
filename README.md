@@ -2,15 +2,15 @@
 Dosen Pengampuh : Anggay Luri Pramana,M.Kom
 
 # Penulis
-	Nama	: Moch Rafli Muchibbin
- 	Kelas	: TIF22A(pagi)
-  	Nim	: 23422029
+Nama	: Moch Rafli Muchibbin
+ Kelas	: TIF22A(pagi)
+  Nim	: 23422029
 
 # Soal : 
 No. 1  Persamaan Non Linier <br>
-      3 + x³ - x = 4 <br>
+3 + x³ - x = 4 <br>
 No. 2  Persamaan Linier <br>
-      2x - 4 = 8 
+2x - 4 = 8 
 
 Intruksi : <br>
 1. Carilah Solusi dari 2 soal diatas (metode bebas) <br>
@@ -19,11 +19,11 @@ Intruksi : <br>
 
 # 1. Penyederhanaan Persamaan Non Linier
 Persamaan non linier yang diberikan adalah: <br>
-    3 + x³ - x = 4 <br>
-    3 + x³ - x - 4 = 0 <br>
-    x³ - x + 3 - 4 = 0 <br>
-    x³ - x - 1 = 0 atau <br>
-    x³ - x = 1
+3 + x³ - x = 4 <br>
+3 + x³ - x - 4 = 0 <br>
+x³ - x + 3 - 4 = 0 <br>
+x³ - x - 1 = 0 atau <br>
+x³ - x = 1
 
 # Solusi Diatas : 
   Untuk mencari solusi dari persamaan non-linier tersebut, anda dapat menggunakan metode iteratif seperti, 
