@@ -1,6 +1,11 @@
 # UTS Metode Numerik
 Dosen Pengampuh : Anggay Luri Pramana,M.Kom
 
+# Penulis
+	Nama	: Moch Rafli Muchibbin
+ 	Kelas	: TIF22A(pagi)
+  	Nim	: 23422029
+
 # Soal : 
 No. 1  Persamaan Non Linier <br>
       3 + x³ - x = 4 <br>
@@ -20,14 +25,12 @@ Persamaan non linier yang diberikan adalah: <br>
     x³ - x - 1 = 0 atau <br>
     x³ - x = 1
 
-# Solusi : 
-  Untuk mencari solusi dari persamaan non-linier tersebut, 
-  Anda dapat menggunakan metode iteratif seperti, 
-  metode Newton-Raphson untuk persamaan non-linier 
-  Dan metode eliminasi untuk persamaan linier. 
+# Solusi Diatas : 
+  Untuk mencari solusi dari persamaan non-linier tersebut, anda dapat menggunakan metode iteratif seperti, 
+  metode Newton-Raphson untuk persamaan non-linier dan metode eliminasi untuk persamaan linier. 
   Berikut contoh program sederhana menggunakan Python: 
 
-```python
+``python
 def fungsi_non_linier(x):
     return x**3 - x + 3 - 4
 	
@@ -71,35 +74,34 @@ Output:
 
 # 2. Penyederhanaan Persamaan Linier 
 Persamaan linier yang diberikan adalah: <br>
-    2x - 4 = 8 <br>
-    2x = 8 + 4 <br>
-    2x = 12 <br>
-    x = 6 <br>
-    Jadi, solusi persamaan linier ini adalah x = 6.
+     2x - 4 = 8 <br>
+     2x = 8 + 4 <br>
+     2x = 12 <br>
+     x = 6 <br>
+     Jadi, solusi persamaan linier ini adalah x = 6.
 
-# Solusi 
-Persamaan linear dapat dipecahkan secara langsung tanpa menggunakan metode iteratif
-karena ini adalah persamaan linear sederhana. 
+# Solusi Diatas :
+Persamaan linear dapat dipecahkan secara langsung tanpa menggunakan metode iteratif karena ini adalah persamaan linear sederhana. 
 Berikut adalah implementasi dalam Python:
 
-```python
-def solve_linear_equation(coef, constant):
-# Persamaan linear: coef * x = constant
-x = constant / coef
-return x
-
-# Koefisien persamaan
-coef = 2
-
-# Konstanta persamaan
-constant = 8 + 4  # Sisi kanan persamaan dipindahkan ke sisi kiri dengan menggabungkan konstanta
-
-# Panggil fungsi untuk menyelesaikan persamaan linear
-solusi = solve_linear_equation(coef, constant)
-
-# Cetak solusi
-print(f"Solusi persamaan 2x - 4 = 8 adalah x = {solusi}")
-```
+	``python
+	def solve_linear_equation(coef, constant):
+	# Persamaan linear: coef * x = constant
+	x = constant / coef
+	return x
+	
+	# Koefisien persamaan
+	coef = 2
+	
+	# Konstanta persamaan
+	constant = 8 + 4  # Sisi kanan persamaan dipindahkan ke sisi kiri dengan menggabungkan konstanta
+	
+	# Panggil fungsi untuk menyelesaikan persamaan linear
+	solusi = solve_linear_equation(coef, constant)
+	
+	# Cetak solusi
+	print(f"Solusi persamaan 2x - 4 = 8 adalah x = {solusi}")
+	```
 
 
 Output :
